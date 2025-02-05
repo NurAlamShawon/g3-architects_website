@@ -108,7 +108,6 @@ main {
   font-size: 1rem;
 }
 .features {
-  position: relative;
   display: flex;
   height: 1059px;
   margin-bottom: 130px;
@@ -140,25 +139,24 @@ main {
   width: 800px;
   height: 1059px;
 }
-.img {
-  margin-left: 146px;
-  width: 670px;
-  height: 952px;
-  z-index: 10;
-  
-}
-.rectanagle_div {
+.rectanagle_div{
+  border: none;
+  margin-top: -92px;
+  margin-left: -100px;
   margin-left: 54px;
   padding: 46px 42px 45px 42px;
   border-radius: 8px;
-  position: absolute; 
-  bottom: 0; 
-  z-index: 1;
-  width: 270px;
+  width: 290px;
   height: 210px;
   background-color: #ff900e;
   text-align: center;
 }
+.img {
+  margin-left: 146px;
+  width: 670px;
+  height: 952px;
+}
+
 .rectanangle_heading01{
   font-weight: bold;
   font-size: 3.5rem;
@@ -281,11 +279,12 @@ margin-bottom: 130px;
   }
   .img {
     margin-top: 200px;
-    margin-left:40px;
+    margin-left:60px;
     width: 320px;
     height: 342px;
   }
   .rectanagle_div {
+    margin-left: 20px;
     width: 110px;
     height: 60px;
     padding: 16px 12px 15px 12px;
